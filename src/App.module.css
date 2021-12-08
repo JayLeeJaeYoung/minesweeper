@@ -1,0 +1,52 @@
+.cell {
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+  flex: 33.33333333%;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.game {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #bfbff7;
+  /* border: 2px solid blue; */
+}
+
+.game h4 {
+  margin: 5px;
+}
+
+.history {
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: 2px solid orange; */
+}
+
+.history button {
+  margin: 1px;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}

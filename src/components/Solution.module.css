@@ -1,0 +1,59 @@
+.solution {
+  cursor: pointer;
+  height: 35px;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: inset -0.1rem -0.1rem 0.1rem 1.5px rgb(120, 120, 120),
+    inset 0.1rem 0.1rem 0.1rem 1.5px rgb(250, 250, 250);
+}
+
+.solution:hover,
+.solution:active {
+  background-color: rgb(200, 200, 200);
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cell {
+  background: rgb(210, 210, 210);
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 100%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell-open {
+  border: 1px solid rgb(100, 100, 100);
+  background: rgb(180, 180, 180);
+}
+
+.cell-close {
+  border: none;
+  box-shadow: inset -0.1rem -0.1rem 0 1.5px rgb(120, 120, 120),
+    inset 0.1rem 0.1rem 0 1.5px rgb(250, 250, 250);
+  border-radius: 3px;
+}
+
+.violated {
+  background-color: red;
+}
+
+.icon {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
